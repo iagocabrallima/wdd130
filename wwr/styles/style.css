@@ -12,10 +12,12 @@
 }
 
 nav a{
-    text-align: center;
+    text-align: left;
     background-color: rgb(175, 141, 69);
     text-decoration: none;
-    padding: 35px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
 }
 
 #hero-msg h1{
@@ -79,7 +81,8 @@ header{
 }
 
 .msg p{
-    font-size: 8em;
+    font-size: 1em;
+    font-family: Roboto Slab;
     padding-bottom: 15px;
 }
 
