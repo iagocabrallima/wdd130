@@ -1,71 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Slab&display=swap');
+.home-title{
+    font-family: Great Vibes;
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 #content{
     max-width: 1600px;
     margin:0 auto;
     text-align: center;
 }
+
 nav a{
     text-align: center;
-    background-color: rgb(175, 141, 69)
+    background-color: rgb(175, 141, 69);
+    text-decoration: none;
+    padding: 35px;
 }
+
 #hero-msg h1{
     text-align: center;
 }
+
 #hero-msg h4{
     text-align: center;
 }
+
 .buttom-box{
     text-align: center;
 }
+
 main{
     text-align: center;
 }
+
 section{
     text-align: center;
 }
+
 body{
     background-color:rgb(253, 250, 236);
+    font-family: Roboto Slab;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+h2{
+    margin: 0;
+}
+
 header{
     background-color: rgb(175, 141, 69);
+    font-style: Great Vibes;
 }
-.book{
+
+.book, .join{
     background-color: rgb(253, 250, 236);
+    font-family: Roboto Slab;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-top: 200px;
+    border-radius: 5px;
 }
-.join{
-    background-color: rgb(253, 250, 236);
-    text-decoration: none;
-}
+
 .book:hover{
     background-color: rgb(253, 250, 236);
 }
+
 .join:hover{
     background-color: rgb(253, 250, 236);
 }
+
 .msg{
     background-color: rgb(253, 250, 236);
+    line-height: 1.5em;
+    padding: 35px;
 }
+
+.msg p{
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+
 footer{
     background-color: rgb(175, 141, 69);
     text-decoration: none;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
+
 #background{
     height: 725px;
     background-color: rgb(255, 237, 133);
 }
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
+
 nav{
     text-decoration: none;
 }
+
 a{
     text-decoration: none;  
 }
+
 footer p{
     font-size: 1.2em;
 }
+
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+#logo_link{
+    padding-top: 5px
+}
+
+.social{
+    padding-top: 15px;
+}
+img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid rgb(175, 141, 69);
+}
+main section img {
+    box-sizing: border-box;
+}
+.logo{
+    padding-right: 90%;
+    width: 100px;
+}
