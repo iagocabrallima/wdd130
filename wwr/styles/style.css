@@ -254,3 +254,9 @@ main section img {
         margin-top: 25px;
     }
 }
+
+.river1{
+    display: grid;
+    background: fixed;
+    background-color: black;
+}
