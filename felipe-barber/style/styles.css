@@ -1,0 +1,89 @@
+header{
+    text-align: center;
+    background-color: #343A40;
+}
+
+.logo{
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 250px;
+    height: auto;
+    width: auto;
+}
+header h1{
+    color: lightgray;
+}
+nav a{
+    font-size: 2em;
+    color: black;
+    background-color:#6C757D;
+    background-size: auto;
+    border-radius: 8%;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.video{
+grid-row:1;
+grid-column: 2;
+margin: 10px;
+align-items: center;
+border:solid 5px;
+border-color:#343A40;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    grid-row: 2/2;
+    grid-column: 2;
+    padding: 5em 1em;
+    align-items: center;
+    text-align: left;
+}
+.icons img{
+    display: flex;
+    justify-content: space-around;
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    width: auto; 
+    align-items: baseline;
+    
+}
+.icons h2{
+    position:sticky;
+    border:solid 2px;
+    background-color: #6C757D;
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    background-color: #343A40;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+footer p{
+    color: aliceblue;
+    align-items: center;
+    margin: 10px;
+}
+.social{
+    padding: 2em 2em;
+    grid-column: 1;
+}
+.social img{
+    width: auto;
+    height: auto;
+    border: solid 5px;
+    border-color: #6C757D;
+}
+.informations{
+    grid-column: 2;
+    align-items: center;
+    color: aliceblue;
+}
+
