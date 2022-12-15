@@ -20,7 +20,7 @@ nav a{
     background-size: auto;
     border-radius: 8%;
 }
-main{
+.layout_home{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -86,4 +86,43 @@ footer p{
     align-items: center;
     color: aliceblue;
 }
+
+.layout_kid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 3em;
+    margin: 2em 0;
+}
+.kid_room{
+    grid-column: 2;
+    text-align: center;
+}
+.kid_room img{
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    border: solid 5px;
+}
+.kid_room p{
+    text-align: center;
+}
+.hair_styles{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    padding: 2em;
+    background-color: #6C757D;
+    color: aliceblue;
+    border: #343A40 solid 5px;
+}
+.hair_styles img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border: #343A40 solid 5px;
+}
+
+
 
