@@ -124,5 +124,51 @@ footer p{
     border: #343A40 solid 5px;
 }
 
+.credential{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+}
+.credential img{
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    border: #343A40 solid 5px;
+    grid-row: 1;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 15%;
+}
+.credential p{
+    grid-row: 2;
+    font-style: italic;
+}
+.hygiene{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+}
+.hygiene img{
+    grid-column: 2;
+    grid-row: 1;
+    align-items: center;
+    border: #343A40 solid 5px;
+    border-radius: 15%;
+}
+.hygiene p{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    background-color: #343A40;
+    color: aliceblue;
+    border: #343A40;
+    border-radius: 15%;
+    font-style: italic;
+}
+
 
 
